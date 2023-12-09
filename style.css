@@ -1,0 +1,77 @@
+body {
+  background-color: #101214;
+  color: #7A7C80;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: 'Nunito', sans-serif;
+}
+
+.Name {
+  font-family: 'Nunito', sans-serif;
+  color: #ededed;
+  background: #101214;
+  font-size: 40px;
+  top: 215px;
+  left: 225px;
+  position: relative;
+}
+
+.Project a{
+  font-family: 'Nunito', sans-serif;
+  color: gray; 
+  font-size: 20px;
+  top: -15px;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+}
+
+.ProjectText {
+  color: #ededed;
+  font-size: 15px;
+  position: absolute;
+  top: 225px;
+  left: 600px;
+  display: block;
+}
+
+.Bio {
+  font-size: 15px;
+  color: #ededed;
+  top: 100px;
+  left: 600px;
+  position: absolute;
+}
+
+.BioTwo{
+  font-size: 20px;
+  color: gray;
+  position: static;
+  top: 30px;
+  height: 100%;
+  display: block;
+}
+
+.InfoText {
+  font-size: 15px;
+  color: #ededed;
+  top: 425px;
+  left: 600px;
+  position: absolute;
+}
+
+.DiscordInfo a {
+  font-size: 23px;
+  color: gray;
+  top: 75px;
+  position: absolute;
+  display: block;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  transition: color 0.3s;
+}
